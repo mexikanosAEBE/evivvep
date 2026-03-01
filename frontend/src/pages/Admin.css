@@ -1,0 +1,247 @@
+.admin-page {
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.admin-login {
+  max-width: 320px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: var(--surface);
+  border-radius: 12px;
+}
+
+.admin-login h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.admin-login form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.admin-login input {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--surface-hover);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.admin-login button {
+  padding: 0.75rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.admin-header a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.admin-section {
+  background: var(--surface);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.admin-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.admin-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.admin-section input,
+.admin-section select {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid var(--surface-hover);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.admin-section button {
+  padding: 0.6rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.admin-section button.btn-danger {
+  background: var(--danger);
+  margin-top: 0.5rem;
+}
+
+.room-list {
+  margin-top: 1rem;
+}
+
+.room-list a {
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.room-info {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.user-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.user-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--surface-hover);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.user-name {
+  font-weight: 500;
+}
+
+.user-code {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.user-code strong {
+  color: var(--accent);
+  font-family: monospace;
+  letter-spacing: 0.05em;
+}
+
+.user-list li div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.user-list button {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+.edit-form {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: var(--bg);
+  border-radius: 8px;
+}
+
+.participants-section {
+  margin-top: 1rem;
+}
+
+.participant-list {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.participant-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+}
+
+.participant-list li span {
+  flex: 1;
+}
+
+.participant-list li button {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+/* Poll results */
+.poll-results-section {
+  margin-top: 1rem;
+}
+
+.poll-result-card {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  background: var(--bg);
+  border-radius: 8px;
+}
+
+.poll-result-card h4 {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.poll-total {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.poll-result-row {
+  margin-bottom: 0.5rem;
+}
+
+.poll-result-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
+}
+
+.poll-result-count {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.poll-result-bar {
+  height: 6px;
+  background: var(--surface-hover);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.poll-result-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+
+.poll-voters {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}

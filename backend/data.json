@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "481214af-54c9-4204-8c73-9f77f06e87ab",
+      "first_name": "kwstas",
+      "last_name": "takis",
+      "join_code": "BUBMOX",
+      "room_code": "8J5Q65",
+      "created_at": 1772278086567
+    },
+    {
+      "id": "bea389df-cd08-4a61-a6af-a05e9d26a484",
+      "first_name": "bond",
+      "last_name": "tom",
+      "join_code": "KZJCAH",
+      "room_code": "8J5Q65",
+      "created_at": 1772278173929
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-f2fe1a40-dceb-4eaf-a26a-230b65f1b305",
+      "code": "8J5Q65",
+      "host_id": "481214af-54c9-4204-8c73-9f77f06e87ab",
+      "created_at": 1772280106236
+    }
+  ],
+  "polls": []
+}
